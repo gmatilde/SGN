@@ -63,10 +63,15 @@ To check your installation, open a terminal from your conda environment, access 
 ### Results
 **Sine Wave Function**
 
+0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
+	![GitHub Logo](/figures/sine_loss_epochs.svg)
+	![GitHub Logo](/figures/sine_loss_time.svg)
+	
 **MNIST**
 
-
 0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
+	![GitHub Logo](/figures/mnist_loss_epochs.svg)
+	![GitHub Logo](/figures/mnist_loss_time.svg)
 	![Training curves](https://cloud.githubusercontent.com/assets/11435359/13046277/e904c04c-d412-11e5-9260-efc5b8301e2f.jpg)
 
 0. 1-crop validation error on ImageNet (center 224x224 crop from resized image with shorter side=256):
