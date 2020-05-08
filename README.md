@@ -61,15 +61,15 @@ To check your installation, open a terminal from your conda environment, access 
 	- OneDrive download: [link](https://onedrive.live.com/?authkey=%21AAFW2-FVoxeVRck&id=4006CBB8476FF777%2117887&cid=4006CBB8476FF777)
 
 ### Results
-**Sine Wave Function**
+**Sine Wave Regression with MLP**
 
-0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
+0. Learning curves on sine wave regression task (solid lines: SGD; dashed lines: SGN):
 	![GitHub Logo](/figures/sine_loss_epochs.svg)
 	![GitHub Logo](/figures/sine_loss_time.svg)
 	
-**MNIST**
+**MNIST Classification with MLP**
 
-0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
+0. Learning curves on MNIST classification task (solid lines: SGD; dashed lines: SGN):
 	![GitHub Logo](/figures/mnist_loss_epochs.svg)
 	![GitHub Logo](/figures/mnist_loss_time.svg)
 	![Training curves](https://cloud.githubusercontent.com/assets/11435359/13046277/e904c04c-d412-11e5-9260-efc5b8301e2f.jpg)
@@ -91,10 +91,10 @@ To check your installation, open a terminal from your conda environment, access 
 	ResNet-101|21.8%|6.1%
 	ResNet-152|21.4%|5.7%
 
-**CIFAR10**
+**CIFAR10 Classification with VGG-type network**
 
 
-0. Curves on ImageNet (solid lines: 1-crop val error; dashed lines: training error):
+0. Learning curves on CIFAR10 classification task (solid lines: SGD; dashed lines: SGN):
 	![Training curves](https://cloud.githubusercontent.com/assets/11435359/13046277/e904c04c-d412-11e5-9260-efc5b8301e2f.jpg)
 
 0. 1-crop validation error on ImageNet (center 224x224 crop from resized image with shorter side=256):
