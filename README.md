@@ -91,7 +91,7 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 	![GitHub Logo](/figures/mnist_testacc_time.svg)
 	
 
-0. 1-crop validation error on ImageNet (center 224x224 crop from resized image with shorter side=256):
+0. Table with test accuracies 
 
 	algorithm|test acc
 	:---:|:---:
@@ -104,7 +104,7 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 0. Learning curves on CIFAR10 classification task (solid lines: SGD; dashed lines: SGN):
 	![Training curves](https://cloud.githubusercontent.com/assets/11435359/13046277/e904c04c-d412-11e5-9260-efc5b8301e2f.jpg)
 
-0. 1-crop validation error on ImageNet (center 224x224 crop from resized image with shorter side=256):
+0. Table with test accuracies
 
 	algorithm|test acc
 	:---:|:---:
