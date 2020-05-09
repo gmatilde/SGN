@@ -91,13 +91,18 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 	![GitHub Logo](/figures/mnist_testacc_time.svg)
 	
 
-0. Table with test accuracies 
+0. Table with test accuracies after 200 seconds of training 
 
 	algorithm|test acc
-	:---:|:---:
-	SGN|24.7%
-	SGD|23.6%
-	SGD|23.0%
+	:-------:|:-------:
+	SGD (0.001)|33.5%
+	SGD (0.01)|70.2%
+	SGD (0.1)|89.7%
+	SGD (1)|93.8%
+	SGD (10)|85.4%
+	SGN (3)|94.0%
+	SGN (5)|93.8%
+	SGN (10)|92.6%
 	
 **CIFAR10 Classification with VGG-type network**
 
