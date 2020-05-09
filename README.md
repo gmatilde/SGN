@@ -75,9 +75,17 @@ RHO_LS|parameter for the line search|0.5
 MAX_LS_ITERS|maximum number of line search iterations|10
 
 ### Results
+**Boston Housing Regression with MLP**
+
+0. Boston Housing regression task with a simple 3 layers MLP (solid lines: SGD; dashed lines: SGN):
+
+Train Loss vs Seconds             |  Test Loss vs Seconds
+:-------------------------:|:-------------------------:
+![GitHub Logo](/figures/boston_loss_time.svg)  |  ![GitHub Logo](/figures/boston_testloss_time.svg)
+
 **Sine Wave Regression with MLP**
 
-0. Sinve wave regression task with a simple 3 layers MLP (solid lines: SGD; dashed lines: SGN):
+0. Sine wave regression task with a simple 3 layers MLP (solid lines: SGD; dashed lines: SGN):
 
 Train Loss vs Seconds             |  Test Loss vs Seconds
 :-------------------------:|:-------------------------:
