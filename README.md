@@ -84,13 +84,9 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 **MNIST Classification with MLP**
 
 0. Traning loss vs epochs and time on MNIST classification task (solid lines: SGD; dashed lines: SGN):
-	![GitHub Logo](/figures/mnist_loss_epochs.svg)
 	![GitHub Logo](/figures/mnist_loss_time.svg)
 0. Test accuracy vs epochs and time on MNIST classification task (solid lines: SGD; dashed lines: SGN):
-	![GitHub Logo](/figures/mnist_testacc_epochs.svg)
 	![GitHub Logo](/figures/mnist_testacc_time.svg)
-	
-
 0. Table with test accuracies after 200 seconds of training 
 
 	algorithm|test acc
