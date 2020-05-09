@@ -100,14 +100,64 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 ![GitHub Logo](/figures/mnist_loss_time.svg)  |  ![GitHub Logo](/figures/mnist_testacc_time.svg)
 
 0. Table with test accuracies after 200 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+	
+	<table>
+	<tr> </th></tr>
+	<tr><td>
 
-	algorithm|test acc         | algorithm|test acc   
-	:-------:|:-------:	   | :-------:|:-------:
-	SGD (0.001)|33.5%          |   SGD (10)|85.4% 
-	SGD (0.01)|70.2%	   |   SGN (3)|94.0%
-	SGD (0.1)|89.7%            |   SGN (5)|93.8%
-	SGD (1)|93.8%              |   SGN (10)|92.6% 
+	 algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (0.001)|33.5%  | 311    
+	  SGD (0.01)|70.2%   | 317      
+	  SGD (0.1)|89.7%    | 321      
+	  SGD (1)|93.8%      | 331  
+
+
+	</td><td>
+
+	  algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (10)|85.4% | 326   
+	  SGN (3) |94.0% | 75   
+	  SGN (5) |93.8% | 52      
+	  SGN (10)|92.6% | 29  
+
+
+	</td></tr> </table>
 	
 **FashionMNIST Classification with VGG-type network**		
 	
 **CIFAR10 Classification with VGG-type network**
+
+0. CIFAR10 classification task with a simple VGG-type network (solid lines: SGD; dashed lines: SGN):
+
+Train Loss vs Seconds             |  Train Loss vs Epochs
+:-------------------------:|:-------------------------:
+![GitHub Logo](/figures/cifar10_loss_time.svg)  |  ![GitHub Logo](/figures/cifar10_loss_epochs.svg)
+
+0. Table with test accuracies after 250 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+
+
+	<table>
+	<tr> </th></tr>
+	<tr><td>
+
+	 algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (0.001)|30.5%  | 67    
+	  SGD (0.01)|52.4%   |67     
+	  SGD (0.1)|57.9%    | 67      
+	  SGN (1)|49.6%      | 14  
+
+
+	</td><td>
+
+	  algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGN (2)|52.7% | 9   
+	  SGN (3)|55.5% | 7    
+	  SGN (5)|52.6% | 4      
+	  SGN (10)|57.6% | 2   
+
+
+	</td></tr> </table>
