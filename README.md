@@ -77,9 +77,11 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 ### Results
 **Sine Wave Regression with MLP**
 
-0. Learning curves on sine wave regression task (solid lines: SGD; dashed lines: SGN):
-	![GitHub Logo](/figures/sine_loss_epochs.svg)
-	![GitHub Logo](/figures/sine_loss_time.svg)
+0. Sinve wave regression task with a simple 3 layers MLP (solid lines: SGD; dashed lines: SGN):
+
+Train Loss vs Seconds             |  Test Loss vs Seconds
+:-------------------------:|:-------------------------:
+![GitHub Logo](/figures/sine_loss_time.svg)  |  ![GitHub Logo](/figures/sine_testloss_time.svg)
 	
 **MNIST Classification with MLP**
 
