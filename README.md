@@ -108,17 +108,6 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 	SGD (0.1)|89.7%            |   SGN (5)|93.8%
 	SGD (1)|93.8%              |   SGN (10)|92.6% 
 	
-		
+**FashionMNIST Classification with VGG-type network**		
 	
 **CIFAR10 Classification with VGG-type network**
-
-0. Learning curves on CIFAR10 classification task (solid lines: SGD; dashed lines: SGN):
-	![Training curves](https://cloud.githubusercontent.com/assets/11435359/13046277/e904c04c-d412-11e5-9260-efc5b8301e2f.jpg)
-
-0. Table with test accuracies
-
-	algorithm|test acc
-	:---:|:---:
-	SGN|24.7%
-	SGD|23.6%
-	SGD|23.0%
