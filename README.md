@@ -82,23 +82,21 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 	![GitHub Logo](/figures/sine_loss_time.svg)
 	
 **MNIST Classification with MLP**
+0. MNIST classification task with a simple 2 layers MLP (solid lines: SGD; dashed lines: SGN):
+Train Loss vs Seconds             |  Test Accuracy vs Seconds
+:-------------------------:|:-------------------------:
+![GitHub Logo](/figures/mnist_loss_time.svg)  |  ![GitHub Logo](/figures/mnist_testacc_time.svg)
 
-0. Traning loss vs epochs and time on MNIST classification task (solid lines: SGD; dashed lines: SGN):
-	![GitHub Logo](/figures/mnist_loss_time.svg)
-0. Test accuracy vs epochs and time on MNIST classification task (solid lines: SGD; dashed lines: SGN):
-	![GitHub Logo](/figures/mnist_testacc_time.svg)
 0. Table with test accuracies after 200 seconds of training 
 
-	algorithm|test acc
-	:-------:|:-------:
-	SGD (0.001)|33.5%
-	SGD (0.01)|70.2%
-	SGD (0.1)|89.7%
-	SGD (1)|93.8%
-	SGD (10)|85.4%
-	SGN (3)|94.0%
-	SGN (5)|93.8%
-	SGN (10)|92.6%
+	algorithm|test acc         | algorithm|test acc   
+	:-------:|:-------:	   | :-------:|:-------:
+	SGD (0.001)|33.5%          |   SGD (10)|85.4% 
+	SGD (0.01)|70.2%	   |   SGN (3)|94.0%
+	SGD (0.1)|89.7%            |   SGN (5)|93.8%
+	SGD (1)|93.8%              |   SGN (10)|92.6% 
+	
+		
 	
 **CIFAR10 Classification with VGG-type network**
 
