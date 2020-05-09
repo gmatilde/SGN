@@ -82,12 +82,14 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 	![GitHub Logo](/figures/sine_loss_time.svg)
 	
 **MNIST Classification with MLP**
+
 0. MNIST classification task with a simple 2 layers MLP (solid lines: SGD; dashed lines: SGN):
+
 Train Loss vs Seconds             |  Test Accuracy vs Seconds
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/mnist_loss_time.svg)  |  ![GitHub Logo](/figures/mnist_testacc_time.svg)
 
-0. Table with test accuracies after 200 seconds of training 
+0. Table with test accuracies after 200 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
 	algorithm|test acc         | algorithm|test acc   
 	:-------:|:-------:	   | :-------:|:-------:
