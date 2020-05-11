@@ -45,12 +45,12 @@ If you use this code or this method in your research, please cite:
 **Note**
 
 To check your installation, open a terminal from your conda environment, access the folder ``` scripts``` and type the following command: 
-```python mlp_mnist.py --layers 10 10 --solver SGD --lr 0.1 --f res_mnist --verbose 1```.
+```python mlp.py --dataset mnist --layers 20 20 20 --solver SGN --rho 0.0001 --cg_min_iter 3 --cg_max_iter 3 --f res_mnist --verbose 1 --epochs 5```.
 
 
 ### Usage
 
-The python files ```mlp_mnist.py```, ```mlp_sine.py```, ```conv_net_cifar10.py``` available in the folder ```scripts``` offer an example of how to use this package. 
+The python files ```mlp.py```, and ```conv_net.py``` available in the folder ```scripts``` offer an example of how to use this package. 
 
 ### Algorithm
 Please have a look at our paper http://arxiv.org/abs/TODO for a full mathematical description of SGN. The current implementation includes also the possibility of using backtracking line search to automatically adjust the step-size (see Algorithm 3.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf) and/or using a trust region approach to automatically adapt the Levenberg-Marquardt regularization parameter (see Algorithm 4.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf). 
@@ -77,7 +77,7 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 ### Results
 **Boston Housing Regression with MLP**
 
-0. Boston Housing regression task with a simple 3 layers MLP (solid lines: SGD; dashed lines: SGN):
+0. Boston Housing regression task with a simple 2 layers MLP (solid lines: SGD; dashed lines: SGN):
 
 Train Loss vs Seconds             |  Test Loss vs Seconds
 :-------------------------:|:-------------------------:
@@ -99,6 +99,32 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/mnist_loss_time.svg)  |  ![GitHub Logo](/figures/mnist_testacc_time.svg)
 
+0. Table with test accuracies after 25 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+	
+	<table>
+	<tr> </th></tr>
+	<tr><td>
+
+	 algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (0.001)|17.4%  | 36    
+	  SGD (0.01)|35.5%   | 36      
+	  SGD (0.1)|72.3%    | 36      
+	  SGD (1)|89.9%      | 36  
+
+
+	</td><td>
+
+	  algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (10)|15.1% | 36   
+	  SGN (3) |93.0% | 8   
+	  SGN (5) |93.1% | 5      
+	  SGN (10)|92.1% | 3  
+
+
+	</td></tr> </table>
+
 0. Table with test accuracies after 200 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 	
 	<table>
@@ -107,20 +133,20 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.001)|33.5%  | 311    
-	  SGD (0.01)|70.2%   | 317      
-	  SGD (0.1)|89.7%    | 321      
-	  SGD (1)|93.8%      | 331  
+	  SGD (0.001)|32.3%  | 290    
+	  SGD (0.01)|68.8%   | 290      
+	  SGD (0.1)|89.5%    | 288      
+	  SGD (1)|93.8%      | 289  
 
 
 	</td><td>
 
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (10)|85.4% | 326   
-	  SGN (3) |94.0% | 75   
-	  SGN (5) |93.8% | 52      
-	  SGN (10)|92.6% | 29  
+	  SGD (10)|93.8% | 289   
+	  SGN (3) |94.0% | 66   
+	  SGN (5) |93.6% | 45      
+	  SGN (10)|93.1% | 25  
 
 
 	</td></tr> </table>
