@@ -1,0 +1,12 @@
+language: python
+python:
+  - "3.5"
+  - "3.6"
+  - "3.7"
+install:
+  - python setup.py install
+# command to run tests
+script:
+  - pushd scripts
+  - python conv_net.py --dataset fashion --architecture architecture_1 --solver SGN 
+  - popd
