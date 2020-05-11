@@ -1,0 +1,1 @@
+{"config": {"SOLVER": "SGN", "MAX_CG_ITERS": 3, "MIN_CG_ITERS": 10, "K_CG": 10, "TR": true, "LS": true, "CG_TOL": 1e-06, "PRINT_LEVEL": 0, "MAX_LS_ITERS": 10, "CG_PREC": false, "DAMP_RHO": 0.0001, "RHO_LS": 0.5, "C_LS": 0.0001, "ALPHA": 1, "BETA": 0.0, "DAMP_RHO_MIN": 1e-06, "BATCH_SIZE": 101, "ALPHA_EXP": 1.0}, "layers": [100, 100]}

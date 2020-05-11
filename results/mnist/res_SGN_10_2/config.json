@@ -1,0 +1,1 @@
+{"config": {"CG_TOL": 1e-06, "BETA": 0.0, "MAX_LS_ITERS": 10, "ALPHA": 1, "K_CG": 10, "BATCH_SIZE": 1000, "SOLVER": "SGN", "DAMP_RHO": 0.0001, "RHO_LS": 0.5, "ALPHA_EXP": 1.0, "DAMP_RHO_MIN": 1e-06, "LS": true, "C_LS": 0.0001, "PRINT_LEVEL": 0, "MIN_CG_ITERS": 10, "TR": true, "MAX_CG_ITERS": 10, "CG_PREC": false}, "layers": [20, 20, 20]}

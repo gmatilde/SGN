@@ -1,0 +1,1 @@
+{"config": {"EPOCHS": 600, "LR0": 0.01, "K": 1000, "LR_K": 0.001, "SCHEDULER": "const", "SOLVER": "SGD", "BATCH_SIZE": 1000, "MOMENTUM": 0.0}, "layers": [20, 20, 20]}
