@@ -39,7 +39,7 @@ If you use this code or this method in your research, please cite:
 0. Create a virtual environment for python with conda, e.g. ```conda create -n sgn_env python=3.6 anaconda```, and activate it, e.g.  ```source activate sgn_env```.
 0. Access the cloned repository on your machine with ```cd <root>/SGN```.
 0. Run the following command ```python setup.py install```.
-0. If you have access to a gpu and want to use it to speedup the benchmarks, also run the following command ```conda install pygpu==0.7```.
+0. If you have access to a gpu and want to use it to speedup the benchmarks, also run the following command ```conda install pygpu=0.7```.
 
 
 **Note**
