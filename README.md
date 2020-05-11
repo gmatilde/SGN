@@ -1,5 +1,5 @@
-# Stochastic Generalized Gauss-Newton (SGN) Method for Traning Deep Neural Networks
-
+ [![Build Status](https://travis-ci.com/gmatilde/SGN.svg?token=ZcbUVpvXpbuS8sFYpWQG&branch=master)](https://travis-ci.com/gmatilde/SGN)
+# Stochastic Generalized Gauss-Newton (SGN) Method for Traning Deep Neural Networks 
 By [Matilde Gargiani](https://scholar.google.com/citations?user=gejXFzwAAAAJ&hl=en).
 
 Albert-Ludwigs-Universität Freiburg.
@@ -75,6 +75,9 @@ RHO_LS|parameter for the line search|0.5
 MAX_LS_ITERS|maximum number of line search iterations|10
 
 ### Results
+
+Here you find an empirical evaluation of SGN across benchmarks. All data, includig the hyperparameter configurations used, are available in the folder ```results```. The results are obtained averaging 5 independent runs with seeds ```1```, ```2```, ```3```, ```4```, ```5``` were used respectively. All benchmarks were run on GeForce GTX TITAN X gpus.
+
 **Boston Housing Regression with MLP**
 
 0. Boston Housing regression task with a simple 2 layers MLP (solid lines: SGD; dashed lines: SGN):
@@ -83,6 +86,8 @@ Train Loss vs Seconds             |  Test Loss vs Seconds
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/boston_loss_time.svg)  |  ![GitHub Logo](/figures/boston_testloss_time.svg)
 
+All results and info on configurations used are available in the ```results/boston``` folder. 
+
 **Sine Wave Regression with MLP**
 
 0. Sine wave regression task with a simple 3 layers MLP (solid lines: SGD; dashed lines: SGN):
@@ -90,7 +95,9 @@ Train Loss vs Seconds             |  Test Loss vs Seconds
 Train Loss vs Seconds             |  Test Loss vs Seconds
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/sine_loss_time.svg)  |  ![GitHub Logo](/figures/sine_testloss_time.svg)
-	
+
+All results and info on configurations used are available in the ```results/sine``` folder. 
+
 **MNIST Classification with MLP**
 
 0. MNIST classification task with a simple 2 layers MLP (solid lines: SGD; dashed lines: SGN):
@@ -151,8 +158,9 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 
 	</td></tr> </table>
 	
+All results and info on configurations used are available in the ```results/mnist``` folder. 
+	
 **FashionMNIST Classification with VGG-type network**
-
 
 0. FashionMNIST classification task with a simple VGG-type network (solid lines: SGD; dashed lines: SGN):
 
@@ -185,6 +193,8 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 
 
 	</td></tr> </table>
+	
+All results and info on configurations used are available in the ```results/fashion``` folder. 
 	
 **CIFAR10 Classification with VGG-type network**
 
@@ -220,3 +230,5 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 
 
 	</td></tr> </table>
+	
+All results and info on configurations used are available in the ```results/cifar10``` folder. 
