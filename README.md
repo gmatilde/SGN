@@ -125,7 +125,40 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 
 	</td></tr> </table>
 	
-**FashionMNIST Classification with VGG-type network**		
+**FashionMNIST Classification with VGG-type network**
+
+
+0. FashionMNIST classification task with a simple VGG-type network (solid lines: SGD; dashed lines: SGN):
+
+Train Loss vs Seconds             |  Train Loss vs Epochs
+:-------------------------:|:-------------------------:
+![GitHub Logo](/figures/fashion_loss_time.svg)  |  ![GitHub Logo](/figures/fashion_loss_epochs.svg)
+
+0. Table with test accuracies after 90 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+
+	<table>
+	<tr> </th></tr>
+	<tr><td>
+
+	 algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (0.001)|59.5%  | 34    
+	  SGD (0.01)|68.1%   |34     
+	  SGD (0.1)|70.9%    | 34      
+	  SGN (1)|84.4%      | 9  
+
+
+	</td><td>
+
+	  algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGN (2)|85.7% | 6   
+	  SGN (3)|86.7% | 4    
+	  SGN (5)|87.7% | 3      
+	  SGN (10)|86.0% | 1   
+
+
+	</td></tr> </table>
 	
 **CIFAR10 Classification with VGG-type network**
 
