@@ -45,12 +45,12 @@ If you use this code or this method in your research, please cite:
 **Note**
 
 To check your installation, open a terminal from your conda environment, access the folder ``` scripts``` and type the following command: 
-```python mlp_mnist.py --layers 10 10 --solver SGD --lr 0.1 --f res_mnist --verbose 1```.
+```python mlp.py --dataset mnist --layers 20 20 20 --solver SGN --rho 0.0001 --cg_min_iter 3 --cg_max_iter 3 --f res_mnist --verbose 1 --epochs 5```.
 
 
 ### Usage
 
-The python files ```mlp_mnist.py```, ```mlp_sine.py```, ```conv_net_cifar10.py``` available in the folder ```scripts``` offer an example of how to use this package. 
+The python files ```mlp.py```, and ```conv_net.py``` available in the folder ```scripts``` offer an example of how to use this package. 
 
 ### Algorithm
 Please have a look at our paper http://arxiv.org/abs/TODO for a full mathematical description of SGN. The current implementation includes also the possibility of using backtracking line search to automatically adjust the step-size (see Algorithm 3.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf) and/or using a trust region approach to automatically adapt the Levenberg-Marquardt regularization parameter (see Algorithm 4.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf). 
@@ -77,7 +77,7 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 ### Results
 **Boston Housing Regression with MLP**
 
-0. Boston Housing regression task with a simple 3 layers MLP (solid lines: SGD; dashed lines: SGN):
+0. Boston Housing regression task with a simple 2 layers MLP (solid lines: SGD; dashed lines: SGN):
 
 Train Loss vs Seconds             |  Test Loss vs Seconds
 :-------------------------:|:-------------------------:
