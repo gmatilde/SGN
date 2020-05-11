@@ -99,6 +99,40 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/mnist_loss_time.svg)  |  ![GitHub Logo](/figures/mnist_testacc_time.svg)
 
+sgd 10 test acc 0.15086, epoch 36
+sgd 1 test acc 0.8995200000000001, epoch 36
+sgd 0.1 test acc 0.7235200000000002, epoch 36
+sgd 0.01 test acc 0.35532, epoch 36
+sgn 10 test acc 0.9205200000000002, epoch 3
+sgn 5 test acc 0.93058, epoch 5
+sgn 3 test acc 0.9295400000000001, epoch 8
+
+0. Table with test accuracies after 25 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+	
+	<table>
+	<tr> </th></tr>
+	<tr><td>
+
+	 algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (0.001)|17.4%  | 36    
+	  SGD (0.01)|35.5%   | 36      
+	  SGD (0.1)|72.3%    | 36      
+	  SGD (1)|89.9%      | 36  
+
+
+	</td><td>
+
+	  algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (10)|15.1% | 36   
+	  SGN (3) |93.0% | 8   
+	  SGN (5) |93.1% | 5      
+	  SGN (10)|92.1% | 3  
+
+
+	</td></tr> </table>
+
 0. Table with test accuracies after 200 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 	
 	<table>
