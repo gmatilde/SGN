@@ -211,6 +211,8 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/cifar10_testacc_time.svg)  |  ![GitHub Logo](/figures/cifar10_testacc_epochs.svg)
 
+Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plots for completeness.
+
 1. Table with test accuracies after 600 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
 	<table>
@@ -267,5 +269,3 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 
 	
 All results and info on configurations used are available in the ```results/cifar10``` folder. The benchmarks were run on GeForce GTX TITAN X gpus.
-
-Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plots for completeness.
