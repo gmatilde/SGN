@@ -72,7 +72,7 @@ MAX_LS_ITERS|maximum number of line search iterations|10
 
 ### Results
 
-Here you find an empirical evaluation of SGN across benchmarks. All data, includig the hyperparameter configurations used, are available in the folder ```results```. The results are obtained averaging 5 independent runs with seeds ```1```, ```2```, ```3```, ```4```, ```5``` were used respectively. All benchmarks were run on GeForce GTX TITAN X gpus.
+Here you find an empirical evaluation of SGN across benchmarks. All data, includig the hyperparameter configurations used, are available in the folder ```results```. The results are obtained averaging 5 independent runs with seeds ```1```, ```2```, ```3```, ```4```, ```5``` were used respectively. 
 
 **Boston Housing Regression with MLP**
 
@@ -154,7 +154,7 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 
 	</td></tr> </table>
 	
-All results and info on configurations used are available in the ```results/mnist``` folder. 
+All results and info on configurations used are available in the ```results/mnist``` folder. The benchmarks were run on GeForce GTX TITAN X gpus.
 	
 **FashionMNIST Classification with VGG-type network**
 
@@ -190,7 +190,7 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 
 	</td></tr> </table>
 	
-All results and info on configurations used are available in the ```results/fashion``` folder. 
+All results and info on configurations used are available in the ```results/fashion``` folder. The benchmarks were run on GeForce GTX TITAN X gpus.
 	
 **CIFAR10 Classification with VGG-type network**
 
@@ -227,4 +227,4 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 
 	</td></tr> </table>
 	
-All results and info on configurations used are available in the ```results/cifar10``` folder. 
+All results and info on configurations used are available in the ```results/cifar10``` folder. The benchmarks were run on GeForce GTX TITAN X gpus.
