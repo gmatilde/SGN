@@ -83,6 +83,9 @@ Train Loss vs Seconds             |  Test Loss vs Seconds
 ![GitHub Logo](/figures/boston_loss_time.svg)  |  ![GitHub Logo](/figures/boston_testloss_time.svg)
 
 All results and info on configurations used are available in the ```results/boston``` folder. 
+The results with ```SGD, lr=1``` are available in the folder ```results/boston``` but are not included in the plots for readibility as SGD with this value of learning rate quickly diverges. 
+
+The benchmarks were run on Intel(R) Core(TM) i7-7560U CPU @ 2.40GHz.
 
 **Sine Wave Regression with MLP**
 
@@ -95,6 +98,8 @@ Train Loss vs Seconds             |  Test Loss vs Seconds
 All results and info on configurations used are available in the ```results/sine``` folder. 
 
 The results with ```SGD, lr=1``` are available in the folder ```results/sine``` but are not included in the plots for readibility as SGD with this value of learning rate quickly diverges. 
+
+The benchmarks were run on Intel(R) Core(TM) i7-7560U CPU @ 2.40GHz.
 
 **MNIST Classification with MLP**
 
