@@ -94,6 +94,8 @@ Train Loss vs Seconds             |  Test Loss vs Seconds
 
 All results and info on configurations used are available in the ```results/sine``` folder. 
 
+The results with ```SGD, lr=1``` are available in the folder ```results/sine``` but are not included in the plots for readibility as SGD with this value of learning rate quickly diverges. 
+
 **MNIST Classification with MLP**
 
 0. MNIST classification task with a simple 2 layers MLP (solid lines: SGD; dashed lines: SGN):
@@ -231,3 +233,5 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 	</td></tr> </table>
 	
 All results and info on configurations used are available in the ```results/cifar10``` folder. The benchmarks were run on GeForce GTX TITAN X gpus.
+
+Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plots for completeness.
