@@ -237,6 +237,23 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 
 	</td></tr> </table>
 	
+0. CIFAR10 classification task with a simple VGG-type network (solid lines: SGD; dashed lines: SGN):
+
+Train Loss vs Seconds             |  Train Loss vs Epochs
+:-------------------------:|:-------------------------:
+![GitHub Logo](/figures/cifar10_loss_time_longer.svg)  |  ![GitHub Logo](/figures/cifar10_loss_epochs_longer.svg)
+
+Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
+:-------------------------:|:-------------------------:
+![GitHub Logo](/figures/cifar10_testacc_time_longer.svg)  |  ![GitHub Logo](/figures/cifar10_testacc_epochs_longer.svg)
+
+0. Table with test accuracies after 2000 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+
+	 algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (0.1)|66.2%  | 135
+	  SGN (10)|71.0%  | 9
+	
 All results and info on configurations used are available in the ```results/cifar10``` folder. The benchmarks were run on GeForce GTX TITAN X gpus.
 
 Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plots for completeness.
