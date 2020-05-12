@@ -200,8 +200,11 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/cifar10_loss_time.svg)  |  ![GitHub Logo](/figures/cifar10_loss_epochs.svg)
 
-0. Table with test accuracies after 250 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
+:-------------------------:|:-------------------------:
+![GitHub Logo](/figures/cifar10_testacc_time.svg)  |  ![GitHub Logo](/figures/cifar10_testacc_epochs.svg)
 
+0. Table with test accuracies after 600 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
 	<table>
 	<tr> </th></tr>
@@ -209,20 +212,20 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.001)|30.5%  | 67    
-	  SGD (0.01)|52.4%   |67     
-	  SGD (0.1)|57.9%    | 67      
-	  SGN (1)|49.6%      | 14  
+	  SGD (0.001)|10.0%  | 42    
+	  SGD (0.01)|20.2%   |42     
+	  SGD (0.1)|61.0%    | 42      
+	  SGD (1)|8.0%      | 54  
 
 
 	</td><td>
 
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGN (2)|52.7% | 9   
-	  SGN (3)|55.5% | 7    
-	  SGN (5)|52.6% | 4      
-	  SGN (10)|57.6% | 2   
+	  SGN (2)|44.9% | 9   
+	  SGN (3)|49.3% | 7    
+	  SGN (5)|58.6% | 5      
+	  SGN (10)|64.7% | 2   
 
 
 	</td></tr> </table>
