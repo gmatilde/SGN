@@ -109,7 +109,7 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/mnist_loss_time.svg)  |  ![GitHub Logo](/figures/mnist_testacc_time.svg)
 
-0. Table with test accuracies after 25 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+1. Table with test accuracies after 25 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 	
 	<table>
 	<tr> </th></tr>
@@ -135,7 +135,7 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 
 	</td></tr> </table>
 
-0. Table with test accuracies after 200 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+2. Table with test accuracies after 200 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 	
 	<table>
 	<tr> </th></tr>
@@ -171,7 +171,7 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/fashion_loss_time.svg)  |  ![GitHub Logo](/figures/fashion_loss_epochs.svg)
 
-0. Table with test accuracies after 90 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+1. Table with test accuracies after 90 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
 	<table>
 	<tr> </th></tr>
@@ -211,7 +211,7 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/cifar10_testacc_time.svg)  |  ![GitHub Logo](/figures/cifar10_testacc_epochs.svg)
 
-0. Table with test accuracies after 600 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+1. Table with test accuracies after 600 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
 	<table>
 	<tr> </th></tr>
@@ -237,7 +237,7 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 
 	</td></tr> </table>
 	
-0. CIFAR10 classification task with a simple VGG-type network (solid lines: SGD; dashed lines: SGN):
+2. Longer runs for some of the previous configurations (solid lines: SGD; dashed lines: SGN):
 
 Train Loss vs Seconds             |  Train Loss vs Epochs
 :-------------------------:|:-------------------------:
@@ -247,7 +247,7 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/cifar10_testacc_time_longer.svg)  |  ![GitHub Logo](/figures/cifar10_testacc_epochs_longer.svg)
 
-0. Table with test accuracies after 2000 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+3. Table with test accuracies after 2000 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
       <table>
 	<tr> </th></tr>
