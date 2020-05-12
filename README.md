@@ -46,7 +46,7 @@ To check your installation, open a terminal from your conda environment, access 
 
 ### Usage
 
-The python files ```mlp.py```, and ```conv_net.py``` available in the folder ```scripts``` offer an example of how to use this package. 
+The python files ```mlp.py``` and ```conv_net.py``` available in the folder ```scripts``` offer an example of how to use this package. 
 
 ### Algorithm
 Please have a look at our paper http://arxiv.org/abs/TODO for a full mathematical description of SGN. The current implementation includes also the possibility of using backtracking line search to automatically adjust the step-size (see Algorithm 3.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf) and/or using a trust region approach to automatically adapt the Levenberg-Marquardt regularization parameter (see Algorithm 4.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf). 
