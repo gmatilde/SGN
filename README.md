@@ -249,10 +249,22 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 
 0. Table with test accuracies after 2000 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
+      <table>
+	<tr> </th></tr>
+	<tr><td>
+
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.1)|66.2%  | 135
+	  SGD (0.1)|66.2%  | 135    
+
+	</td><td>
+
+	  algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
 	  SGN (10)|71.0%  | 9
+	
+	</td></tr> </table>
+
 	
 All results and info on configurations used are available in the ```results/cifar10``` folder. The benchmarks were run on GeForce GTX TITAN X gpus.
 
