@@ -93,7 +93,7 @@ The benchmarks were run on Intel(R) Core(TM) i7-7560U CPU @ 2.40GHz.
 
 Train Loss vs Seconds             |  Test Loss vs Seconds
 :-------------------------:|:-------------------------:
-![GitHub Logo](/figures/sine_loss_time.svg)  |  ![GitHub Logo](/figures/sine_testloss_time.svg)
+![GitHub Logo](/figures/sine10_loss_time.svg)  |  ![GitHub Logo](/figures/sine10_testloss_time.svg)
 
 All results and info on configurations used are available in the ```results/sine``` folder. 
 
