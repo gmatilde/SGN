@@ -109,14 +109,6 @@ All results and info on configurations used are available in the ```results/sine
 
 The results with ```SGD, lr=1``` are available in the folder ```results/sine_100``` but are not included in the plots for readibility as SGD with this value of learning rate quickly diverges.
 
-2. Longer runs for some of the previous configurations (solid lines: SGD; dashed lines: SGN):
-
-Train Loss vs Seconds             |  Test Loss vs Seconds
-:-------------------------:|:-------------------------:
-![GitHub Logo](/figures/sine100_loss_time.svg)  |  ![GitHub Logo](/figures/sine100_testloss_time.svg)
-
-All results and info on configurations used are available in the ```results/sine_100``` folder. 
-
 The benchmarks were run on Intel(R) Core(TM) i7-7560U CPU @ 2.40GHz.
 
 **MNIST Classification with MLP**
