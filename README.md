@@ -129,7 +129,7 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 	  :-------:|:-------:|:-------:|
 	  SGD (0.001)|17.4%  | 36    
 	  SGD (0.01)|35.5%   | 36      
-	  SGD (0.1)|72.3%    | 36      
+	  SGD (0.1)|72.4%    | 36      
 	  SGD (1)|89.9%      | 36  
 
 
@@ -138,7 +138,7 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
 	  SGD (10)|15.1% | 36   
-	  SGN (3) |93.0% | 8   
+	  SGN (3) |92.9% | 8   
 	  SGN (5) |93.1% | 5      
 	  SGN (10)|92.1% | 3  
 
@@ -153,7 +153,7 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.001)|32.3%  | 290    
+	  SGD (0.001)|32.8%  | 290    
 	  SGD (0.01)|68.8%   | 290      
 	  SGD (0.1)|89.5%    | 288      
 	  SGD (1)|93.8%      | 289  
@@ -233,7 +233,7 @@ Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plo
 	  :-------:|:-------:|:-------:|
 	  SGD (0.001)|10.0%  | 42    
 	  SGD (0.01)|20.2%   |42     
-	  SGD (0.1)|61.0%    | 42      
+	  SGD (0.1)|60.9%    | 42      
 	  SGD (1)|8.0%      | 54  
 
 
@@ -243,7 +243,7 @@ Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plo
 	  :-------:|:-------:|:-------:|
 	  SGN (2)|44.9% | 9   
 	  SGN (3)|49.3% | 7    
-	  SGN (5)|58.6% | 5      
+	  SGN (5)|58.2% | 5      
 	  SGN (10)|64.7% | 2   
 
 
@@ -273,7 +273,7 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGN (10)|71.0%  | 9
+	  SGN (10)|70.9%  | 9
 	
 	</td></tr> </table>
 
