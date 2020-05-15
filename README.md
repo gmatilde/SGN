@@ -181,7 +181,7 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 :-------------------------:|:-------------------------:
 ![GitHub Logo](/figures/fashion_loss_time.svg)  |  ![GitHub Logo](/figures/fashion_loss_epochs.svg)
 
-1. Table with test accuracies after 90 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+1. Table with test accuracies after 50 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
 	<table>
 	<tr> </th></tr>
@@ -189,20 +189,46 @@ Train Loss vs Seconds             |  Train Loss vs Epochs
 
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.001)|59.5%  | 34    
-	  SGD (0.01)|68.1%   |34     
-	  SGD (0.1)|70.9%    | 34      
-	  SGN (1)|84.4%      | 9  
+	  SGD (0.001)|63.1%  | 15    
+	  SGD (0.01)|82.3%   |15     
+	  SGD (0.1)|86.7%    | 15      
+	  SGD (1)| --      | --  
 
 
 	</td><td>
 
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGN (2)|85.7% | 6   
-	  SGN (3)|86.7% | 4    
-	  SGN (5)|87.7% | 3      
-	  SGN (10)|86.0% | 1   
+	  SGN (2)|84.5% | 3   
+	  SGN (3)|85.2% | 2    
+	  SGN (5)|85.6% | 1      
+	  SGN (10)|85.4% | 1   
+
+
+	</td></tr> </table>
+	
+2. Table with test accuracies after 150 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+
+	<table>
+	<tr> </th></tr>
+	<tr><td>
+
+	 algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGD (0.001)|76.5%  | 46    
+	  SGD (0.01)|85.5%   |46     
+	  SGD (0.1)|88.5%    | 46      
+	  SGD (1)| --      | --  
+
+
+	</td><td>
+
+	  algorithm|test acc | epochs							      
+	  :-------:|:-------:|:-------:|
+	  SGN (2)|86.2% | 10   
+	  SGN (3)|87.2% | 8    
+	  SGN (5)|87.8% | 5      
+	  SGN (10)|86.0% | 3   
 
 
 	</td></tr> </table>
@@ -234,7 +260,7 @@ Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plo
 	  SGD (0.001)|10.0%  | 46    
 	  SGD (0.01)|19.0%   |45     
 	  SGD (0.1)|63.1%    | 45      
-	  SGD (1)|8.0%      | 54  
+	  SGD (1)| --      | --  
 
 
 	</td><td>
