@@ -127,25 +127,25 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.001)|17.4%  | 36    
-	  SGD (0.01)|35.5%   | 36      
-	  SGD (0.1)|72.4%    | 36      
-	  SGD (1)|89.9%      | 36  
+	  SGD (0.001)|17.2%  | 36    
+	  SGD (0.01)|35.3%   | 36      
+	  SGD (0.1)|71.9%    | 36      
+	  SGD (1)|89.8%      | 36  
 
 
 	</td><td>
 
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (10)|15.1% | 36   
+	  SGD (10)|11.6% | 36   
 	  SGN (3) |92.9% | 8   
-	  SGN (5) |93.1% | 5      
-	  SGN (10)|92.1% | 3  
+	  SGN (5) |92.8% | 5      
+	  SGN (10)|91.6% | 3  
 
 
 	</td></tr> </table>
 
-2. Table with test accuracies after 200 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+2. Table with test accuracies after 100 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 	
 	<table>
 	<tr> </th></tr>
@@ -153,20 +153,20 @@ Train Loss vs Seconds             |  Test Accuracy vs Seconds
 
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.001)|32.8%  | 290    
-	  SGD (0.01)|68.8%   | 290      
-	  SGD (0.1)|89.5%    | 288      
-	  SGD (1)|93.8%      | 289  
+	  SGD (0.001)|25.4%  | 145    
+	  SGD (0.01)|58.2%   | 145      
+	  SGD (0.1)|85.5%    | 144      
+	  SGD (1)|93.0%      | 144  
 
 
 	</td><td>
 
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (10)|93.8% | 289   
-	  SGN (3) |94.0% | 66   
-	  SGN (5) |93.6% | 45      
-	  SGN (10)|93.1% | 25  
+	  SGD (10)|93.0% | 144   
+	  SGN (3) |94.0% | 33   
+	  SGN (5) |93.7% | 22      
+	  SGN (10)|91.5% | 12  
 
 
 	</td></tr> </table>
@@ -223,7 +223,7 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 
 Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plots for completeness.
 
-1. Table with test accuracies after 600 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
+1. Table with test accuracies after 650 seconds of training (in parenthesis the value of learning rate and CG iterations for SGD and SGN respectively):
 
 	<table>
 	<tr> </th></tr>
@@ -231,9 +231,9 @@ Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plo
 
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.001)|10.0%  | 42    
-	  SGD (0.01)|20.2%   |42     
-	  SGD (0.1)|60.9%    | 42      
+	  SGD (0.001)|10.0%  | 46    
+	  SGD (0.01)|19.0%   |45     
+	  SGD (0.1)|63.1%    | 45      
 	  SGD (1)|8.0%      | 54  
 
 
@@ -241,10 +241,10 @@ Notice that ```SGN, lr=1``` diverges after epoch 7 but we included it in the plo
 
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGN (2)|44.9% | 9   
-	  SGN (3)|49.3% | 7    
-	  SGN (5)|58.2% | 5      
-	  SGN (10)|64.7% | 2   
+	  SGN (2)|44.9% | 10   
+	  SGN (3)|49.3% | 8    
+	  SGN (5)|56.9% | 5      
+	  SGN (10)|64.7% | 3   
 
 
 	</td></tr> </table>
@@ -267,13 +267,13 @@ Test Accuracy vs Seconds             |  Test Accuracy vs Epochs
 
 	 algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGD (0.1)|66.2%  | 135    
+	  SGD (0.1)|60.9%  | 135    
 
 	</td><td>
 
 	  algorithm|test acc | epochs							      
 	  :-------:|:-------:|:-------:|
-	  SGN (10)|70.9%  | 9
+	  SGN (10)|71.0%  | 9
 	
 	</td></tr> </table>
 
