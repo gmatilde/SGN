@@ -23,11 +23,11 @@ Despite the undisputable popularity of Tensorflow and Pytorch as deep learning f
 If you use this code or this method in your research, please cite:
 
 
-	@article{Gargiani2018,
-		author = {Matilde Gargiani and Andrea Zanelli and Frank Hutter and Moritz Diehl},
-		title = {Stochastic generalized Gauss-Newton method (SGN): an efficient stochastic second-order method for deep learning},
-		journal = {arXiv preprint arXiv:TODO},
-		year = {2018}
+	@article{Gargiani2020,
+		author = {Matilde Gargiani and Andrea Zanelli and Moritz Diehl and Frank Hutter},
+		title = {On the Promise of the Stochastic Generalized Gauss-Newton Method for Training DNNs},
+		journal = {arXiv preprint},
+		year = {2020}
 	}
 	
 ### Installation
