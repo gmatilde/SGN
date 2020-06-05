@@ -14,7 +14,7 @@ Albert-Ludwigs-Universität Freiburg.
 0. [Results](#results)
 
 ### Introduction
-This repository contains an efficient and flexible implementation of SGN method for training deep neural networks as described in the paper "On the Promise of the Stochastic Generalized Gauss-Newton Method for Training DNNs". 
+This repository contains an efficient and flexible implementation of SGN method for training deep neural networks as described in the paper "On the Promise of the Stochastic Generalized Gauss-Newton Method for Training DNNs" (https://arxiv.org/pdf/2006.02409.pdf). 
 
 ### Why Theano  
 Despite the undisputable popularity of Tensorflow and Pytorch as deep learning frameworks, only Theano allows an efficient and fully optimized computation of some operations such as Jacobian-vector, vector-Jacobian and Hessian-vector products (see the Theano awesome documentation at http://deeplearning.net/software/theano/tutorial/gradients.html). Since the numerical performance of SGN highly relies on the computational efficiency of such operations, here we go with a Theano implementation! :stuck_out_tongue_winking_eye:
@@ -49,7 +49,7 @@ To check your installation, open a terminal from your conda environment, access 
 The python files ```mlp.py``` and ```conv_net.py``` available in the folder ```scripts``` offer an example of how to use this package. 
 
 ### Algorithm
-Please have a look at our paper http://arxiv.org/abs/TODO for a full mathematical description of SGN. The current implementation includes also the possibility of using backtracking line search to automatically adjust the step-size (see Algorithm 3.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf) and/or using a trust region approach to automatically adapt the Levenberg-Marquardt regularization parameter (see Algorithm 4.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf). 
+Please have a look at our paper https://arxiv.org/pdf/2006.02409.pdf for a full mathematical description of SGN. The current implementation includes also the possibility of using backtracking line search to automatically adjust the step-size (see Algorithm 3.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf) and/or using a trust region approach to automatically adapt the Levenberg-Marquardt regularization parameter (see Algorithm 4.1 in http://bme2.aut.ac.ir/~towhidkhah/MPC/Springer-Verlag%20Numerical%20Optimization.pdf). 
 
 **SGN Adjustable Hyperparameters**
 hyperparameter|description|default value
